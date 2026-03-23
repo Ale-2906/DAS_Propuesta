@@ -19,20 +19,6 @@ export class AuthService {
       email: 'admin@gmail.com',
       password: '123456',
       role: 'admin'
-    },
-    {
-      id: 2,
-      name: 'Ana Martinez',
-      email: 'ana@gmail.com',
-      password: '123456',
-      role: 'psicologa'
-    },
-    {
-      id: 3,
-      name: 'Paciente Demo',
-      email: 'paciente@gmail.com',
-      password: '123456',
-      role: 'usuario'
     }
   ];
 
