@@ -1,0 +1,28 @@
+<div class="dashboard-page">
+  <div class="dashboard-card">
+    <div class="top-bar">
+      <div>
+        <h2>Bienvenido al sistema</h2>
+        <p class="subtitle">Módulo principal de la propuesta de solución</p>
+      </div>
+      <button class="logout-btn" (click)="logout()">Cerrar sesión</button>
+    </div>
+
+    <div class="info-box">
+      <h3>Información del usuario</h3>
+      <p><strong>Nombre:</strong> {{ user?.name }}</p>
+      <p><strong>Correo:</strong> {{ user?.email }}</p>
+      <p><strong>Rol:</strong> {{ user?.role }}</p>
+    </div>
+
+    <div class="content-box">
+      <h3>Funciones del sistema</h3>
+      <ul>
+        <li>Seguimiento emocional diario</li>
+        <li>Visualización de recursos de apoyo</li>
+        <li>Registro de estado emocional</li>
+        <li>Alertas tempranas ante riesgo</li>
+      </ul>
+    </div>
+  </div>
+</div>
